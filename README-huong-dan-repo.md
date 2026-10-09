@@ -142,3 +142,10 @@ Ngay khi khởi tạo repo, Nguyên Khôi tạo file `requirements.txt` (liệt 
 
 - **Nguyên Khôi**, ngay khi khởi tạo repo: tạo `requirements.txt` (pandas, scikit-learn, xgboost, matplotlib... kèm phiên bản) + đoạn hướng dẫn chạy notebook theo thứ tự trong README, để ai clone về cũng chạy được.
 - **Như Huyền**, trong lúc làm 3.6: thử `class_weight='balanced'`/SMOTE cho dữ liệu mất cân bằng, và `GridSearchCV`/`RandomizedSearchCV` để tune tham số Random Forest & XGBoost — đừng chỉ dùng tham số mặc định, vì bảng so sánh ở 4.5 sẽ không thuyết phục nếu vậy.
+
+## Hướng dẫn cài đặt và chạy môi trường (Setup Guide)
+
+1. Cài đặt các thư viện bắt buộc bằng lệnh: 
+   `pip install -r requirements.txt`
+2. Đảm bảo file gốc `online_retail_II.csv` đã được đặt vào thư mục `data/raw/` trước khi chạy code.
+3. Chạy các file Jupyter Notebook trong thư mục `notebooks/` theo đúng thứ tự đánh số từ `01_...` đến `11_...` để tránh lỗi thiếu file Input do chạy nhảy cóc.
