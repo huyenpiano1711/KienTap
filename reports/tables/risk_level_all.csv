@@ -1,0 +1,4 @@
+risk_level,So_khach,Churn_thuc_te,Monetary_TB,Recency_TB,Frequency_TB
+Low,1487,0.139,4122.619,39.956,8.557
+Medium,973,0.479,564.611,77.763,1.937
+High,198,0.662,308.929,142.586,1.227

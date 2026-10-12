@@ -1,0 +1,77 @@
+{
+  "validation": [
+    {
+      "Model": "Logistic Regression",
+      "Threshold": 0.35,
+      "Accuracy": 0.703,
+      "Precision": 0.5064,
+      "Recall": 0.7391,
+      "F1": 0.601,
+      "ROC_AUC": 0.7631
+    },
+    {
+      "Model": "RF_3",
+      "Threshold": 0.5,
+      "Accuracy": 0.6898,
+      "Precision": 0.4918,
+      "Recall": 0.7453,
+      "F1": 0.5926,
+      "ROC_AUC": 0.7791
+    },
+    {
+      "Model": "XGB_2",
+      "Threshold": 0.5,
+      "Accuracy": 0.735,
+      "Precision": 0.5714,
+      "Recall": 0.4969,
+      "F1": 0.5316,
+      "ROC_AUC": 0.7675
+    }
+  ],
+  "best_threshold_per_model": [
+    {
+      "Model": "Logistic Regression",
+      "Threshold": 0.35,
+      "Accuracy": 0.703,
+      "Precision": 0.5064,
+      "Recall": 0.7391,
+      "F1": 0.601,
+      "ROC_AUC": 0.7631
+    },
+    {
+      "Model": "RF_3",
+      "Threshold": 0.4,
+      "Accuracy": 0.6523,
+      "Precision": 0.46,
+      "Recall": 0.8571,
+      "F1": 0.5987,
+      "ROC_AUC": 0.7791
+    },
+    {
+      "Model": "XGB_2",
+      "Threshold": 0.2,
+      "Accuracy": 0.6278,
+      "Precision": 0.442,
+      "Recall": 0.8758,
+      "F1": 0.5875,
+      "ROC_AUC": 0.7675
+    }
+  ],
+  "test_logistic_regression": {
+    "Accuracy": 0.6898,
+    "Precision": 0.4915,
+    "Recall": 0.7205,
+    "F1": 0.5844,
+    "ROC_AUC": 0.7679
+  },
+  "test_confusion_matrix": [
+    [
+      251,
+      120
+    ],
+    [
+      45,
+      116
+    ]
+  ]
+}
